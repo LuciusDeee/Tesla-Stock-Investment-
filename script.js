@@ -3,8 +3,11 @@ function updateStockPrice() {
     document.getElementById("stock-price").innerText = `$${price}`;
 }
 
-function fakeInvest(amount) {
-    let result = `You have "invested" $${amount} in Tesla stock. This is for educational purposes only.`;
+function invest(amount) {
+    let result = `You have invested $${amount} in Tesla stock.`;
     document.getElementById("investment-result").innerText = result;
 }
 
+function contactBroker() {
+    alert("Your broker John Doe will contact you soon!");
+}
