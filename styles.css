@@ -12,7 +12,14 @@ header {
     padding: 20px;
 }
 
-.stock-info {
+nav a {
+    color: #e31937;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.stock-info, .investment, .broker {
     margin: 20px;
     padding: 20px;
     background: #ddd;
@@ -38,4 +45,3 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
-
